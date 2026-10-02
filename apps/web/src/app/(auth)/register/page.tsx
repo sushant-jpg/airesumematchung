@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { AuthForm } from "@/components/auth-form";
+export default function RegisterPage() { return <div className="w-full"><p className="eyebrow">Start with the evidence</p><h1 className="display mt-3 text-5xl">Build your match profile.</h1><p className="mb-8 mt-3 text-ink/60">Already a member? <Link className="font-bold text-forest underline" href="/login">Log in</Link></p><AuthForm mode="register"/><p className="mt-5 text-xs leading-5 text-ink/45">By continuing, you agree to respectful, human-led hiring. AI scores are decision support, never automatic decisions.</p></div>; }
